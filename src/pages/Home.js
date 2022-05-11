@@ -5,11 +5,13 @@ import Card from '../components/styles/Card.styled';
 import PlanCard from '../components/PlanCard';
 import { plans } from '../data';
 import Header from '../components/Header';
+import PlanCards from '../components/PlanCards';
 
 const Home = () => {
   return (
     <div>
       <Header />
+      <PlanCards />
     </div>
   );
 };

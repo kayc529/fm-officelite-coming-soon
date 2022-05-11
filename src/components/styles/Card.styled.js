@@ -7,7 +7,7 @@ const Card = styled.div`
   padding: ${({ padding }) => padding || '0'};
   display: flex;
   flex-direction: column;
-  background: ${({ background }) => background || 'white'};
+  background-color: ${({ background }) => background || 'white'};
   color: ${({ color }) => color || colors.veryDarkBlue};
   border: 0;
   border-radius: ${({ border }) => border || '20px'};

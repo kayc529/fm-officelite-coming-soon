@@ -10,6 +10,7 @@ const HeaderBanner = styled.div`
   gap: 24px;
 
   .header-banner-left-column {
+    // background: red;
     display: flex;
     flex-direction: column;
     grid-column: 1 / span 1;
@@ -27,6 +28,7 @@ const HeaderBanner = styled.div`
 
   .header-banner-right-column {
     display: flex;
+    // background: green;
     grid-column: 2 / span 1;
   }
 
